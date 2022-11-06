@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    width: 600px;
+    height: 300px;
+    font-size: large;
+    position: relative;
+    animation: MyDiv;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    left: 300px;
+}
+
+@keyframes MyDiv {
+    0%   {left: -500px; top: 0px; opacity: 0;}
+    100%  {left: 300px; top: 0px; opacity: 1;}
+}
+
+a {
+    color: rgb(118, 187, 255);
+}
+
+a:hover {
+    color: rgb(178, 215, 255);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+#topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+#topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: ease-in-out 0.3s;
+}
+  
+#topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+#topnav a.active {
+    background-color: #0071bc;
+    color: white;
+}
+
+#backVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+}
+
+th {
+    background-color: #96D4D4;
+    color: rgb(255, 109, 51);
+}
+
+td {
+    background-color: #989898;
+}
+
+#message input {
+    background-color: rgb(130, 180, 255);
+    width: 90px;
+    height: 30px;
+}
+
+#message input:hover {
+    background-color: rgb(182, 211, 255);
+    cursor: pointer;
+}
